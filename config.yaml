@@ -1,0 +1,14 @@
+Samples:
+    #samples.fastq.txt
+    samples.temp.txt
+    # text file with sample IDs
+
+# STAR generated index folder
+STAR_IND: /share/mwang/STAR_indices/hg38_UCSC
+L1EM: ~/tools/L1EM
+GENOMEREF: ~/genome_refs/GRCh38/fromUCSC/hg38.fa
+ROOT_DIR: /share/mwang/LINE1Project/BJFibroblastAltos
+
+DATADIR: /share/mwang/LINE1Project/BJFibroblastAltos/rawData  # directory where raw fastq files are stored
+PIPELINE_MAJOR: L1EM_out_raw_counts # folder where scRNA-seq expression matrices are going to be stored
+CORES: 5
